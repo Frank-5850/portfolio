@@ -24,6 +24,10 @@ export const SocialsContainer = styled.ul`
     height: 300px;
     margin: 0px auto;
     background-color: white;
+    @media (min-width: 1881px) {
+      width: 5px;
+      height: 400px;
+    }
   }
 `;
 
