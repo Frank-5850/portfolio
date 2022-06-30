@@ -34,6 +34,10 @@ export const IconBox = styled.li`
 export const IconLink = styled.a`
   color: white;
   text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3px;
   &:hover {
     color: #f5f5f5;
   }

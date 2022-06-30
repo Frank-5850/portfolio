@@ -13,7 +13,7 @@ import {
   WorkWrapper,
 } from "./work.styles";
 import weatherApp from "../assets/Weather.jpg";
-import { FaGithubSquare } from "react-icons/fa";
+import { FaGithubSquare, FaWindowMaximize } from "react-icons/fa";
 import { IconLink } from "../Socials/socials.styles";
 
 const Work = () => {
@@ -38,8 +38,17 @@ const Work = () => {
                 <Language>open weather map API</Language>
               </LanguageList>
               <IconLinkBox>
-                <IconLink>
+                <IconLink
+                  href="https://github.com/Frank-5850/weather-react"
+                  target="_blank"
+                >
                   <FaGithubSquare size="1.5em" />
+                </IconLink>
+                <IconLink
+                  href="https://glassmorphic-weather.herokuapp.com/home"
+                  target="_blank"
+                >
+                  <FaWindowMaximize size="1.5em" />
                 </IconLink>
               </IconLinkBox>
             </LanguageAndLinks>
