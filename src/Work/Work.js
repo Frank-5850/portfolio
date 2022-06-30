@@ -14,7 +14,6 @@ import {
 } from "./work.styles";
 import weatherApp from "../assets/Weather.jpg";
 import { FaGithubSquare } from "react-icons/fa";
-import { MdOpenInNew } from "react-icons/md";
 import { IconLink } from "../Socials/socials.styles";
 
 const Work = () => {
@@ -41,9 +40,6 @@ const Work = () => {
               <IconLinkBox>
                 <IconLink>
                   <FaGithubSquare size="1.5em" />
-                </IconLink>
-                <IconLink>
-                  <MdOpenInNew size="1.5em" />
                 </IconLink>
               </IconLinkBox>
             </LanguageAndLinks>
