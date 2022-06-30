@@ -1,25 +1,17 @@
 import React from "react";
 import {
-  GitHubIcon,
-  IconLinkBox,
   Language,
   LanguageAndLinks,
   LanguageList,
-  WebsiteIcon,
   WorkCard,
   WorkContainer,
   WorkDetails,
   WorkImg,
   WorkInfo,
-  WorkLink,
-  WorkLinkContainer,
   WorkTitle,
   WorkWrapper,
 } from "./work.styles";
 import weatherApp from "../assets/Weather.jpg";
-import { FaGithubSquare } from "react-icons/fa";
-import { MdOpenInNew } from "react-icons/md";
-import { IconBox, IconLink } from "../Socials/socials.styles";
 
 const Work = () => {
   return (
