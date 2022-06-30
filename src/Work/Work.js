@@ -42,20 +42,9 @@ const Work = () => {
                 <Language>styled-components</Language>
                 <Language>open weather map API</Language>
               </LanguageList>
-              <IconLinkBox>
-                <IconLink>
-                  <FaGithubSquare size="1.5em" />
-                </IconLink>
-                <IconLink>
-                  <MdOpenInNew size="1.5em" />
-                </IconLink>
-              </IconLinkBox>
             </LanguageAndLinks>
           </WorkInfo>
         </WorkCard>
-        {/* <WorkCard />
-        <WorkCard />
-        <WorkCard /> */}
       </WorkContainer>
     </WorkWrapper>
   );
