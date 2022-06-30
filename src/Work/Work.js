@@ -13,6 +13,7 @@ import {
   WorkWrapper,
 } from "./work.styles";
 import weatherApp from "../assets/Weather.jpg";
+import eastBay from "../assets/EastBay.jpg";
 import { FaGithubSquare, FaWindowMaximize } from "react-icons/fa";
 import { IconLink } from "../Socials/socials.styles";
 
@@ -48,6 +49,37 @@ const Work = () => {
                   href="https://glassmorphic-weather.herokuapp.com/home"
                   target="_blank"
                 >
+                  <FaWindowMaximize size="1.5em" />
+                </IconLink>
+              </IconLinkBox>
+            </LanguageAndLinks>
+          </WorkInfo>
+        </WorkCard>
+        <WorkCard>
+          <WorkImg src={eastBay} alt="EBR app photo" />
+          <WorkInfo>
+            <WorkTitle>East Bay Recorders</WorkTitle>
+            <WorkDetails>
+              East Bay Recorders is an intimate, vibey studio where real music
+              gets made. I had the pleasure to modernize the front-end with
+              Andrew Spivey.
+            </WorkDetails>
+            <LanguageAndLinks>
+              <LanguageList>
+                <Language>react</Language>
+                <Language>node</Language>
+                <Language>styled-components</Language>
+                <Language>Material UI</Language>
+                <Language>react-router-dom</Language>
+              </LanguageList>
+              <IconLinkBox>
+                <IconLink
+                  href="https://github.com/andrewjspivey/eastbay_recorders"
+                  target="_blank"
+                >
+                  <FaGithubSquare size="1.5em" />
+                </IconLink>
+                <IconLink href="eastbayrecorders.com" target="_blank">
                   <FaWindowMaximize size="1.5em" />
                 </IconLink>
               </IconLinkBox>

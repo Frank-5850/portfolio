@@ -15,8 +15,8 @@ export const WorkWrapper = styled.div`
 export const WorkContainer = styled.div`
   display: flex;
   flex-flow: column wrap;
-  height: 75vh;
   width: 66vw;
+  align-items: center;
   // border: 1px solid red;
   @media (min-width: 426px) and (max-width: 1024px) {
     width: 90vw;
@@ -29,13 +29,16 @@ export const WorkContainer = styled.div`
 export const WorkCard = styled.div`
   display: flex;
   flex-flow: row;
+  align-items: center;
   // height: 25%;
-  width: 100%;
+  width: 80%;
   // border: 1px solid blue;
+  margin-bottom: 30px;
 `;
 
 export const WorkImg = styled.img`
   width: 30%;
+  height: 100%;
 `;
 
 export const WorkInfo = styled.div`
