@@ -1,6 +1,7 @@
 import React from "react";
 import {
   GitHubIcon,
+  IconLinkBox,
   Language,
   LanguageAndLinks,
   LanguageList,
@@ -16,6 +17,9 @@ import {
   WorkWrapper,
 } from "./work.styles";
 import weatherApp from "../assets/Weather.jpg";
+import { FaGithubSquare } from "react-icons/fa";
+import { MdOpenInNew } from "react-icons/md";
+import { IconBox, IconLink } from "../Socials/socials.styles";
 
 const Work = () => {
   return (
@@ -38,14 +42,14 @@ const Work = () => {
                 <Language>styled-components</Language>
                 <Language>open weather map API</Language>
               </LanguageList>
-              <WorkLinkContainer>
-                <WorkLink>
-                  <GitHubIcon />
-                </WorkLink>
-                <WorkLink>
-                  <WebsiteIcon />
-                </WorkLink>
-              </WorkLinkContainer>
+              <IconLinkBox>
+                <IconLink>
+                  <FaGithubSquare size="1.5em" />
+                </IconLink>
+                <IconLink>
+                  <MdOpenInNew size="1.5em" />
+                </IconLink>
+              </IconLinkBox>
             </LanguageAndLinks>
           </WorkInfo>
         </WorkCard>

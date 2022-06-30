@@ -1,6 +1,4 @@
 import styled from "styled-components";
-import { FaGithubSquare } from "react-icons/fa";
-import { MdOpenInNew } from "react-icons/md";
 
 export const WorkWrapper = styled.div`
   display: flex;
@@ -71,37 +69,8 @@ export const LanguageList = styled.ul`
 
 export const Language = styled.li``;
 
-export const WorkLinkContainer = styled.div`
+export const IconLinkBox = styled.div`
   display: flex;
-  // flex-direction: row;
-  // justify-content: flex-end;
-  @media (min-width: 100px) and (max-width: 425px) {
-    background-color: #6c757d;
-  }
-`;
-
-export const WorkLink = styled.a`
-  text-decoration: none;
-  margin: 0 5px;
-  @media (min-width: 100px) and (max-width: 425px) {
-    background-color: #6c757d;
-  }
-`;
-
-export const GitHubIcon = styled(FaGithubSquare)`
-  color: white;
-  font-size: 1.5em;
-  margin: 0 5px;
-  @media (min-width: 100px) and (max-width: 425px) {
-    background-color: #6c757d;
-  }
-`;
-
-export const WebsiteIcon = styled(MdOpenInNew)`
-  color: white;
-  font-size: 1.5em;
-  margin: 0 5px;
-  @media (min-width: 100px) and (max-width: 425px) {
-    background-color: #6c757d;
-  }
+  justify-content: flex-end;
+  align-items: flex-end;
 `;
