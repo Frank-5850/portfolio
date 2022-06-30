@@ -12,7 +12,7 @@ function App() {
       <Socials />
       <LandingPage />
       <AboutMe />
-      <Work />
+      {/* <Work /> */}
       <Contact />
     </div>
   );
