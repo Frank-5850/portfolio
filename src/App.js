@@ -4,7 +4,6 @@ import LandingPage from "./LandingPage/LandingPage";
 import AboutMe from "./AboutMe/AboutMe";
 import Contact from "./Contact/Contact";
 import Socials from "./Socials/Socials";
-import Work from "./Work/Work";
 
 function App() {
   return (
@@ -12,7 +11,6 @@ function App() {
       <Socials />
       <LandingPage />
       <AboutMe />
-      {/* <Work /> */}
       <Contact />
     </div>
   );
