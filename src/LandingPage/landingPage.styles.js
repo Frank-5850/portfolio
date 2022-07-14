@@ -31,11 +31,20 @@ export const LandingPageContainer = styled.div`
 
 export const Greeting = styled.h3`
   margin: 0 50px;
+  @media (min-width: 1881px) {
+    font-size: 50px;
+  }
 `;
 
 export const HeaderText = styled.h1`
   font-size: 3em;
   margin: 0 50px;
+  @media (min-width: 1881px) {
+    font-size: 50px;
+  }
+  @media (min-width: 1800px) {
+    font-size: 6em;
+  }
   @media (max-width: 1024px) {
     font-size: 2em;
   }
@@ -52,4 +61,7 @@ export const HeaderText = styled.h1`
 
 export const Skills = styled.h4`
   margin: 10px 50px;
+  @media (min-width: 1881px) {
+    font-size: 50px;
+  }
 `;

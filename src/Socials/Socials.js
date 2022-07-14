@@ -18,7 +18,7 @@ const Socials = () => {
       <SocialsContainer>
         <IconBox>
           <IconLink href="https://github.com/Frank-5850" target="_blank">
-            <FaGithubSquare size="1.5em" />
+            <FaGithubSquare size="1.5em" className="icon" />
           </IconLink>
         </IconBox>
         <IconBox>
@@ -26,17 +26,17 @@ const Socials = () => {
             href="https://www.linkedin.com/in/franco-phan-5b14b7144/"
             target="_blank"
           >
-            <FaLinkedin size="1.5em" />
+            <FaLinkedin size="1.5em" className="icon" />
           </IconLink>
         </IconBox>
         <IconBox>
           <IconLink href="https://www.instagram.com/frankphan/" target="_blank">
-            <FaInstagramSquare size="1.5em" />
+            <FaInstagramSquare size="1.5em" className="icon" />
           </IconLink>
         </IconBox>
         <IconBox>
           <IconLink href="https://twitter.com/home" target="_blank">
-            <FaTwitterSquare size="1.5em" />
+            <FaTwitterSquare size="1.5em" className="icon" />
           </IconLink>
         </IconBox>
       </SocialsContainer>

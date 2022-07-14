@@ -24,6 +24,10 @@ export const SocialsContainer = styled.ul`
     height: 300px;
     margin: 0px auto;
     background-color: white;
+    @media (min-width: 1881px) {
+      width: 5px;
+      height: 400px;
+    }
   }
 `;
 
@@ -34,6 +38,10 @@ export const IconBox = styled.li`
 export const IconLink = styled.a`
   color: white;
   text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3px;
   &:hover {
     color: #f5f5f5;
   }
