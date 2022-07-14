@@ -5,63 +5,33 @@ export const LandingPageWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  width: 100vw;
-  @media (min-width: 100px) and (max-width: 768px) {
-    height: 70vh;
-    width: auto;
-  }
+  min-height: 100vh;
 `;
 
 export const LandingPageContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 50vh;
-  width: 50vw;
-  @media (min-width: 426px) and (max-width: 768px) {
-    height: 60vh;
-    width: 80vw;
-  }
-  @media (min-width: 100px) and (max-width: 425px) {
-    height: 60vh;
-    width: 100vw;
-  }
 `;
 
 export const Greeting = styled.h3`
   margin: 0 50px;
-  @media (min-width: 1881px) {
-    font-size: 50px;
+  @media (min-width: 1500px) {
+    font-size: 1.5em;
   }
 `;
 
 export const HeaderText = styled.h1`
   font-size: 3em;
   margin: 0 50px;
-  @media (min-width: 1881px) {
-    font-size: 50px;
-  }
-  @media (min-width: 1800px) {
-    font-size: 6em;
-  }
-  @media (max-width: 1024px) {
-    font-size: 2em;
-  }
-  @media (max-width: 425px) {
-    font-size: 1.5em;
-  }
-  @media (max-width: 375px) {
-    font-size: 1.2em;
-  }
-  @media (max-width: 320px) {
-    font-size: 1em;
+  @media (min-width: 1500px) {
+    font-size: 4em;
   }
 `;
 
 export const Skills = styled.h4`
   margin: 10px 50px;
-  @media (min-width: 1881px) {
-    font-size: 50px;
+  @media (min-width: 1500px) {
+    font-size: 2em;
   }
 `;

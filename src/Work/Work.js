@@ -14,6 +14,7 @@ import {
 } from "./work.styles";
 import weatherApp from "../assets/Weather.jpg";
 import eastBay from "../assets/EastBay.jpg";
+import eastBay2 from "../assets/EastBay2.jpg";
 import { FaGithubSquare, FaWindowMaximize } from "react-icons/fa";
 import { IconLink } from "../Socials/socials.styles";
 
@@ -56,7 +57,7 @@ const Work = () => {
           </WorkInfo>
         </WorkCard>
         <WorkCard>
-          <WorkImg src={eastBay} alt="EBR app photo" />
+          <WorkImg src={eastBay2} alt="EBR app photo" />
           <WorkInfo>
             <WorkTitle>East Bay Recorders</WorkTitle>
             <WorkDetails>

@@ -21,14 +21,9 @@ export const SocialsContainer = styled.ul`
     content: "";
     display: block;
     width: 1px;
-    height: 300px;
+    height: 275px;
     margin: 0px auto;
     background-color: white;
-    @media (min-width: 1881px) {
-      width: 5px;
-      height: 400px;
-    }
-  }
 `;
 
 export const IconBox = styled.li`
