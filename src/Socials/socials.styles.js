@@ -24,6 +24,7 @@ export const SocialsContainer = styled.ul`
     height: 275px;
     margin: 0px auto;
     background-color: white;
+  }
 `;
 
 export const IconBox = styled.li`

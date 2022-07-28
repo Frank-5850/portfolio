@@ -28,14 +28,20 @@ export const WorkImg = styled.img`
   height: 400px;
   object-fit: contain;
   border-radius: 5px;
-  @media (min-width: 1500px) {
-    width: 500px;
-    height: 300px;
-  }
+  // @media (min-width: 800px && max-width:1500px) {
+  //   width: 50%;
+  //   height: 100%;
+  // }
 `;
 
 export const WorkInfo = styled.div`
+  // width: 50%;
+  height: 100%;
   padding-left: 10px;
+  @media (min-width: 1500px) {
+    width: 50%;
+    height: 100%;
+  }
 `;
 
 export const WorkTitle = styled.h2`
